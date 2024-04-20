@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oinima Ltd - Online Marketing </title>
-    <style>
+   <style>
         body {
             background-color: blue;
             font-family: Arial, sans-serif;
+            margin: 0; /* Added */
+            padding: 0; /* Added */
+            display: flex; /* Added */
+            flex-direction: column; /* Added */
+            align-items: center; /* Added */
+            justify-content: space-between; /* Added */
+            min-height: 100vh; /* Added */
         }
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            width: 100%; /* Changed */
             padding: 20px;
         }
         .header {
@@ -19,17 +26,18 @@
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 20px;
+            color: white;
         }
         .nav {
             display: flex;
             justify-content: space-between;
-            background-color:grey;
+            background-color: grey;
             padding: 20px;
         }
         .nav a {
             text-decoration: none;
             color: #333;
-            margin-right: 50px;
+            margin-right: 20px; /* Adjusted */
         }
         .nav a:hover {
             color: #007bff;
@@ -41,6 +49,16 @@
         .item img {
             width: 250px;
             height: 220px;
+            display: block; /* Added */
+            margin: 0 auto; /* Added */
+        }
+        footer {
+            background-color: grey;
+            text-align: center;
+            color: white; /* Added */
+            padding: 20px; /* Added */
+            width: 100%; /* Added */
+            margin-top: auto; /* Added */
         }
     </style>
 </head>
@@ -48,45 +66,47 @@
     <div class="container">
         <div class="header">Oinima Ltd</div>
         <div class="nav">
-            <a href="home.html">Home</a>
-            <a href="product.html">Products</a>
-            <a href="product.html">Shop Now</a>
-            <a href="contact_us.html">Contact Us</a>
-            <a href="about_us.html">Location</a>
-            <a href="about_us.html">About Us</a>
+            <a href="https://oinima.github.io/home/">Home</a>
+            <a href="https://oinima.github.io/products/">Products</a>
+            <a href="https://oinima.github.io/products/">Shop Now</a>
+            <a href="https://oinima.github.io/contact/">Contact Us</a>
+            <a href="https://oinima.github.io/about/">Location</a>
+            <a href="https://oinima.github.io/about/">About Us</a>
         </div>
         <div class="item">
-            <a href="phone.html"><img src="images/phone3.jpeg" alt="Phone"></a>
+            <a href="https://oinima.github.io/phone/"><img src="images/phone3.jpeg" alt="Phone"></a>
         </div>
         <div class="item">
-            <a href="laptop.html"><img src="images/hp3.jpeg" alt="Laptop"></a>
+            <a href="https://oinima.github.io/laptop/"><img src="images/hp3.jpeg" alt="Laptop"></a>
         </div>
         <div class="item">
-            <a href="bag.html"><img src="images/bag3.jpeg" alt="Bag"></a>
+            <a href="https://oinima.github.io/bag/"><img src="images/bag3.jpeg" alt="Bag"></a>
         </div>
         <div class="item">
-            <a href="laptop_charger.html"><img src="images/charger3.jpeg" alt="Laptop Charger"></a>
+            <a href="https://oinima.github.io/laptop_charger/"><img src="images/charger3.jpeg" alt="Laptop Charger"></a>
         </div>
         <div class="item">
-            <a href="printer.html"><img src="images/printer3.jpeg" alt="Printer"></a>
+            <a href="https://oinima.github.io/printer/"><img src="images/printer3.jpeg" alt="Printer"></a>
         </div>
         <div class="item">
-            <a href="shoe.html"><img src="images/shoe3.jpeg" alt="Shoe"></a>
+            <a href="https://oinima.github.io/shoe/"><img src="images/shoe3.jpeg" alt="Shoe"></a>
         </div>
         <div class="item">
-            <a href="shirt.html"><img src="images/shirt3.jpeg" alt="Shirt"></a>
+            <a href="https://oinima.github.io/Shirt/"><img src="images/shirt3.jpeg" alt="Shirt"></a>
         </div>
-        
+        <div class="item">
+            <a href="https://oinima.github.io/trousers/"><img src="images/trousers3.jpeg" alt="Trousers"></a>
+        </div>
        
     </div>
     <footer style="background-color: grey; text-align: center;">
         <nav>
-            <a href="home.html">Home</a>
-            <a href="product.html">Products</a>
-            <a href="product.html">Shop Now</a>
-            <a href="contact_us.html">Contact Us</a>
-            <a href="about_us.html">Location</a>
-            <a href="about_us.html">About Us</a>
+            <a href="https://oinima.github.io/home/">Home</a>
+            <a href="https://oinima.github.io/products/">Products</a>
+            <a href="https://oinima.github.io/about/">Shop Now</a>
+            <a href="https://oinima.github.io/contact/">Contact Us</a>
+            <a href="https://oinima.github.io/about/">Location</a>
+            <a href="https://oinima.github.io/about/">About Us</a>
         </nav>
         <p style="color: white;">Open everyday 8am-8pm<br>&copy; 2024 Oinima Ltd. All rights reserved.</p>
     </footer>
